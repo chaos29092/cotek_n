@@ -20,13 +20,14 @@
                 </div>
                 <div class="list-group">
                   <a href="{{url('products/all')}}" class="list-group-item">All Products</a>
-                  <a href="{{url('products/mobile')}}" class="list-group-item">Mobile Asphalt Mixing Plant</a>
-                  <a href="{{url('products/stationary')}}" class="list-group-item">Stationary Asphalt Mixing Plant</a>
+                  <a href="{{url('products/mobile')}}" class="list-group-item">COTEK Plotter Series</a>
+                  <a href="{{url('products/stationary')}}" class="list-group-item">COTEK Laser Series</a>
+                  <a href="{{url('products/stationary')}}" class="list-group-item">COTEK Router Series</a>
                 </div>
 
                 <div class="well">
                     <h4>NEED HELP?</h4>
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" class="btn btn-warning">
                         <span class="glyphicon glyphicon-comment"></span> chat now
                     </button>
                     <span>(Chat Online)</span>

@@ -15,6 +15,7 @@
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -25,6 +26,9 @@
                 <div class="item">
                   <img src="{{asset('img/banner2.jpg')}}" class="img-responsive" alt="...">
                 </div>
+                <div class="item">
+                  <img src="{{asset('img/banner3.jpg')}}" class="img-responsive" alt="...">
+                </div>
               </div>
             </div>
 
@@ -34,7 +38,7 @@
             </div>
             <div class="container" id="productImg">
                 <div class="row">
-                  <div class="col-xs-6 col-md-3">
+                  <div class="col-xs-6 col-md-4">
                     <a href="{{url('product/mobile')}}" class="thumbnail">
                       <img src="{{asset('img/index/1.jpg')}}" alt="...">
                       <div class="caption">
@@ -43,7 +47,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col-xs-6 col-md-3">
+                  <div class="col-xs-6 col-md-4">
                     <a href="{{url('product/mobile')}}" class="thumbnail">
                       <img src="{{asset('img/index/1.jpg')}}" alt="...">
                       <div class="caption">
@@ -52,7 +56,7 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col-xs-6 col-md-3">
+                  <div class="col-xs-6 col-md-4">
                     <a href="#" class="thumbnail">
                       <img src="{{asset('img/index/1.jpg')}}" alt="...">
                       <div class="caption">
@@ -61,15 +65,15 @@
                       </div>
                     </a>
                   </div>
-                  <div class="col-xs-6 col-md-3">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <h5 class="text-center">hot asphalt mixing plant
-                                                LB3000 (240TPH) Asphalt Mixing Plant</h5>
-                      </div>
-                    </a>
-                  </div>
+                  {{--<div class="col-xs-6 col-md-3">--}}
+                    {{--<a href="#" class="thumbnail">--}}
+                      {{--<img src="{{asset('img/index/1.jpg')}}" alt="...">--}}
+                      {{--<div class="caption">--}}
+                        {{--<h5 class="text-center">hot asphalt mixing plant--}}
+                                                {{--LB3000 (240TPH) Asphalt Mixing Plant</h5>--}}
+                      {{--</div>--}}
+                    {{--</a>--}}
+                  {{--</div>--}}
                 </div>
             </div>
 
@@ -87,8 +91,9 @@
                        <img src="{{asset('img/index_logo.jpg')}}" class="img-thumbnail visible-xs picture_mob" />
                        <div class="header">
                             <h2>ABOUT US</h2>
-                            <h4>Zhengzhou HANVY Machinery And Equipment Co., Ltd.</h4>
-                            <span>is the exportation department of Hanvy group of companies. Hanvy group of company is set up by 6 factories. The 6 factories are brothers companies located within Henan province, separately about 50-350km away from Zhengzhou the capital City of Henan province. In order to deal with commodity inspection, customs declaration, fast orders processing and urgent responds to the customer enquiries, quick responds to the customers after sales services, maintaining and satisfaction of the customers is our priority goal...</span>
+                            <h4>Henan Huaxia Haina Sales & Marketing Co.,Ltd.</h4>
+                            <span>As the first private capital risk investment institution and first angel investment institution of Henan province, Henan HuaXia Haina Venture Capital Group has been a leader brand in this area. Take the responsibility of promoting the development of China's venture capital business, stick to the core values of "recognize now, invest in tomorrow," and adhere to the business philosophy of “working, sharing and developing together”.
+                                  Henan Huaxia Haina Sales and Marketing Co., Ltd. which is belong to Henan Huaxia Haina Investment Group gathers studying, designing, production and international marketing together as a marketing company.</span>
                        </div>
                     </div>
                 </div>

@@ -18,24 +18,13 @@
     <div>
         <h4>ABOUT US</h4>
         <hr/>
-        <p><strong>Zhengzhou Hanvy Machinery & Equipment Co., Ltd</strong> is located in Zhengzhou City which is the capital of Henan province.</p>
-        <p>Zhengzhou Hanvy Machinery & Equipment Co., Ltd is the exportation department of Hanvy group of companies.</p>
-        <p>Hanvy group of company is set up by 6 factories. The 6 factories are brothers companies located within Henan province, separately about 50-350km away from Zhengzhou the capital City of Henan province. In order to deal with commodity inspection, customs declaration, fast orders processing and urgent responds to the customer enquiries, quick responds to the customers after sales services, maintaining and satisfaction of the customers is our priority goal. For the above listed reason the Hanvy group of companies decided to establish a company in Zhengzhou, specialized for exportation.</p>
-        <p>Products of these 6 factories are all in leading position of same industries.</p>
-        <p><strong>Our factories are:</strong></p>
-        <ul>
-            <li>Asphalt mixing plant factory,</li>
-            <li>Concrete mixing plant factory, </li>
-            <li>Stone crusher factory, </li>
-            <li>Gantry crane for harbor and goods yard factory,</li>
-            <li>Gantry crane and overhead-erecting crane factory,</li>
-            <li>Bridge crane and mobile boats hoist (MBH) factory,</li>
-        </ul>
-        <p>At Hanvy group our factories have 800 patents, and more than 6000 staff including 400 senior engineers. Products are sold to more than 80 countries.</p>
-        <p><strong>Our duty:</strong></p>
-        <p>Supply highest level of construction equipment and services to customers all over the world with competitive price;</p>
-        <p>Keep high level of expert spirit, honesty, integrity and fairness to our partner;</p>
-        <p>Search for agents throughout the world to supply fast and considerate service to our customers.</p>
+        <p>As the first private capital risk investment institution and first angel investment institution of Henan province, Henan HuaXia Haina Venture Capital Group has been a leader brand in this area. Take the responsibility of promoting the development of China's venture capital business, stick to the core values of "recognize now, invest in tomorrow," and adhere to the business philosophy of “working, sharing and developing together”. We had developed and invested a group of leading science and technology projects and seed companies; we focusing on foster Henan future productivity and having been a pioneer and leader in Henan venture capital field..</p>
+        <p><strong>Henan Huaxia Haina Sales and Marketing Co., Ltd.</strong> which is belong to Henan Huaxia Haina Investment Group gathers studying, designing, production and international marketing together as a marketing company.</p>
+        <p>Relying on technology and service to reach development and continually provide clients satisfied products are our constant pursuit. Based on the full introduction of foreign advanced technology, we have successfully developed a variety of equipments which are widely used in advertising, architecture, medical, environmental protection and energy field etc. Huaxia Haina adhering to the “Quality of survival. Variety to development.” approach. And we continuously improve products quality and varieties to meet the market demand.</p>
+        <p><strong>Now our company’s main business covers the following aspects:</strong></p>
+        <p>Advertising equipment (CNC routers, printers, banner machines, etc); paint; medical equipment (DNA extraction kit, uterine surgery ultrasound monitor). At the same time, our company also expands our business to the fields of environmental protection and energy sources.</p>
+        <p>Our company pursues the guideline of “progress, practicability, preciseness , unity”, attaches great importance to technology and quality, and made continuous progress, dedicated to provide the customers the most cost effective products with attentive services.</p>
+        <p>With expanding constantly, we increase the capital in operation. We purchased 32 acres of land to build a modern manufacturing plant with 20,000 square meters, which is supposed to be put on production in the middle of 2014. We attract customers from all directions by emphasizing basic function of integrity, superior quality products, reasonable price and favorable service. All staffs will stride forward to the higher goal, by enhancing the competitive strength in corn of themselves, holding on the spirit of forging ahead without any satisfaction.</p>
         <hr/>
     </div>
 @stop

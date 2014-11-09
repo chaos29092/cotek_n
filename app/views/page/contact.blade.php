@@ -19,9 +19,10 @@
         <h4>CONTACT US</h4>
         <hr/>
         <p><strong>Zhengzhou Hanvy Machinery And Equipment Co., Ltd International Trade</strong></p>
-        <p><strong>Contact Person:</strong></p>
-        <p>Mobile: 0371 - 88888888</p>
-        <p><a href="mailto:info@nylyzj.com"></a>E-mail: info@nylyzj.com</p>
+        <p>Y06 Building,11 Changchun Road, Zhengzhou City,Henan,China,450001</p>
+        <p>Mobile:  +86 139 3821 6025</p>
+        <p><a href="mailto:info@sinohuaxia.com"></a>E-mail:  info@sinohuaxia.com</p>
+        <p><strong>Zip Code:</strong>450001</p>
 
         <hr/>
         <div id="contact">

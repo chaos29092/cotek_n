@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
         <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400">
         <script src="{{asset('assets/js/vendor/modernizr-2.6.2.min.js')}}"></script>
     </head>
     <body>
@@ -29,7 +30,8 @@
 
         <div id="top">
             <div class="container">
-                <a href="/"><img id="logo" src="{{asset('img/logo.jpg')}}" alt=""/></a>
+                <a href="/" class="pull-left"><img id="logo" src="{{asset('img/logo.png')}}" alt=""/></a>
+                <h2 class="pull-left">HENAN HUAXIA HAINA SALES & MARKETING CO., LTD</h2>
                 <p class="pull-right"><a href="">English</a>  |  <a href="">Pусский</a>  |  <a href="">中文</a></p>
             </div>
         </div>
@@ -45,11 +47,11 @@
                 <a href="{{url('service')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">service</button></a>
                 <a href="{{url('customer_visit')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">customer visit</button></a>
                 <a href="{{url('about')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">about us</button></a>
-                <a href="#"><button type="button" class="btn btn-sky text-uppercase btn-lg">why us</button></a>
                 <a href="{{url('contact')}}"><button type="button" class="btn btn-sky text-uppercase btn-lg">contact</button></a>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
+
 
         @yield('content')
 
@@ -61,14 +63,17 @@
         	          <li>|</li>
         	          <li><a href="">Products</a></li>
                       <li>|</li>
-                      <li><a href="">Asphalt Mixing Plant</a></li>
+                      <li><a href="">COTEK Plotter Series</a></li>
                       <li>|</li>
-                      <li><a href="">Concrete Mixing Plant</a></li>
+                      <li><a href="">COTEK Laser Series</a></li>
                       <li>|</li>
+                      <li><a href="">COTEK Router Series</a></li>
+                      <li>|</li>
+
 
                       <li><a href="">Contact</a></li>
                 </ul>
-                <p class="text-center">Copyright © Zhengzhou Hanvy Machinery And Equipment Co., Ltd.</p>
+                <p class="text-center">Copyright © Henan Huaxia Haina Sales & Marketing Co.,Ltd.</p>
         	</div>
 
 

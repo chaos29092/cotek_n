@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 body {
-    font-family: Verdana, Geneva, Arial,sans-serif !important;
+    font-family: Roboto, Arial, Tahoma, Verdana !important;
 }
 
 body h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
@@ -301,17 +301,20 @@ textarea {
 /*custom css*/
 /*top*/
 #top {
-    border-top: 4px solid #ecbf1e;
-    background-image: url("../../img/top_background.jpg");
+    border-top: 4px solid #fa8a1c;
+    background-image: url("../../img/topBG.jpg");
 }
 #top p {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: auto;
+}
+#top h2 {
+    margin-top: 35px;
 }
 
 /*导航条*/
 #nav {
-    background-color: #2a77c9;
+    background-color: #3c3c3c;
     box-shadow: 3px 3px 5px #888888;
     border: none;
     margin-bottom: 2px;
@@ -328,7 +331,7 @@ textarea {
 
 .btn-sky {
     color: #fff;
-    background-color: #2a77c9;
+    background-color: #3c3c3c;
     border-bottom:2px solid #098aa9;
 }
 
@@ -385,7 +388,7 @@ textarea {
 #productImg {
     margin-top: 20px;
     /*box-shadow: 10px 10px 20px #d6e3fa;*/
-    border-bottom:2px solid #2a77c9;
+    border-bottom:2px solid #fa8a1c;
 }
 
 
@@ -473,7 +476,7 @@ h3.panel-title {
     margin-top: 30px;
 }
 hr.blueline {
-    border-bottom: 3px solid #2a77c9;
+    border-bottom: 3px solid #fa8a1c;
 }
 
 .collapse#bs-megadropdown-tabs {
@@ -509,8 +512,8 @@ hr.blueline {
 #content .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #ec931f;
-    border-color: #ec931f;
+    background-color: #fa8a1c;
+    border-color: #fa8a1c;
 }
 
 #content a.list-group-item {
@@ -521,12 +524,12 @@ hr.blueline {
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-    background-color: #2a77c9;
+    background-color: #3c3c3c;
     border: 1px solid #ddd;
 }
 #content .list-group-item:hover {
-    background-color: #ec931f;
-    border-color: #ec931f;
+    background-color: #fa8a1c;
+    border-color: #fa8a1c;
 }
 
 /*content page*/
