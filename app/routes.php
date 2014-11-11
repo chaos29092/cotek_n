@@ -19,7 +19,9 @@ Route::get('service', 'PageController@service');
 Route::get('solution', 'PageController@solution');
 Route::get('tour', 'PageController@tour');
 Route::get('products/{category}', 'PageController@products');
-Route::get('product/mobile', 'PageController@product');
+Route::get('product/plotter/{model}', 'PageController@productPlotter');
+Route::get('product/laser/{model}', 'PageController@productLaser');
+Route::get('product/router/{model}', 'PageController@productRouter');
 
 //contact
 Route::post('mailPost', function()

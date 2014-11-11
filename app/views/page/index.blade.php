@@ -39,29 +39,26 @@
             <div class="container" id="productImg">
                 <div class="row">
                   <div class="col-xs-6 col-md-4">
-                    <a href="{{url('product/mobile')}}" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
+                    <a href="{{url('products/plotter')}}" class="thumbnail">
+                      <img src="{{asset('img/index/COTEK-Plotter-Series.jpg')}}" alt="...">
                       <div class="caption">
-                        <h5 class="text-center">hot asphalt mixing plant
-                                                LB3000 (240TPH) Asphalt Mixing Plant</h5>
+                        <h5 class="text-center">COTEK Plotter Series</h5>
                       </div>
                     </a>
                   </div>
                   <div class="col-xs-6 col-md-4">
-                    <a href="{{url('product/mobile')}}" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
+                    <a href="{{url('products/laser')}}" class="thumbnail">
+                      <img src="{{asset('img/index/COTEK-Laser-Series.jpg')}}" alt="...">
                       <div class="caption">
-                        <h5 class="text-center">hot asphalt mixing plant
-                                                LB3000 (240TPH) Asphalt Mixing Plant</h5>
+                        <h5 class="text-center">COTEK Laser Series</h5>
                       </div>
                     </a>
                   </div>
                   <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
+                    <a href="{{url('products/router')}}" class="thumbnail">
+                      <img src="{{asset('img/index/COTEK-Router-Series.jpg')}}" alt="...">
                       <div class="caption">
-                        <h5 class="text-center">hot asphalt mixing plant
-                                                LB3000 (240TPH) Asphalt Mixing Plant</h5>
+                        <h5 class="text-center">COTEK Router Series</h5>
                       </div>
                     </a>
                   </div>
@@ -84,11 +81,11 @@
             <div class="container" style="margin-top: 20px; margin-bottom: 20px;">
             	<div class="row panel">
             		<div class="col-md-4 bg_blur ">
-                	    <a href="{{url('contact')}}" class="follow_btn hidden-xs">Contact</a>
+                	    <a href="{{url('contact')}}" class="follow_btn hidden-xs">CONTACT</a>
             		</div>
                     <div class="col-md-8  col-xs-12">
-                       <img src="{{asset('img/index_logo.jpg')}}" class="img-thumbnail picture hidden-xs" />
-                       <img src="{{asset('img/index_logo.jpg')}}" class="img-thumbnail visible-xs picture_mob" />
+                       <img src="{{asset('img/logo.png')}}" class="img-thumbnail picture hidden-xs" />
+                       <img src="{{asset('img/logo.png')}}" class="img-thumbnail visible-xs picture_mob" />
                        <div class="header">
                             <h2>ABOUT US</h2>
                             <h4>Henan Huaxia Haina Sales & Marketing Co.,Ltd.</h4>

@@ -39,13 +39,26 @@ class PageController extends BaseController {
 
     public function products($category)
     {
-        $date['category'] = $category ;
-        return View::make('page.products', $date);
+        $data['category'] = $category ;
+        return View::make('page.products', $data);
     }
 
-    public function product()
+    public function productPlotter($model)
     {
-        return View::make('page.product');
+        $data['model'] = $model ;
+        return View::make('page.product_plotter', $data);
+    }
+
+    public function productLaser($model)
+    {
+        $data['model'] = $model ;
+        return View::make('page.product_laser', $data);
+    }
+
+    public function productRouter($model)
+    {
+        $data['model'] = $model ;
+        return View::make('page.product_router', $data);
     }
 
 

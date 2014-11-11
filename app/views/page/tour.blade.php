@@ -19,54 +19,13 @@
         <h4>FACTORY TOUR</h4>
         <hr/>
         <div class="row">
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
+                  <div class="col-xs-6 col-md-6">
+                      <img src="{{asset('img/page/tour_1.jpg')}}" alt="...">
                   </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
+                  <div class="col-xs-6 col-md-6">
+                      <img src="{{asset('img/page/tour_2.jpg')}}" alt="...">
                   </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="#" class="thumbnail">
-                      <img src="{{asset('img/index/1.jpg')}}" alt="...">
-                      <div class="caption">
-                        <p class="text-center">Headquarter office building   </p>
-                      </div>
-                    </a>
-                  </div>
+
                 </div>
         <hr/>
     </div>

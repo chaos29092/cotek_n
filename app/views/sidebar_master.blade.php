@@ -20,9 +20,9 @@
                 </div>
                 <div class="list-group">
                   <a href="{{url('products/all')}}" class="list-group-item">All Products</a>
-                  <a href="{{url('products/mobile')}}" class="list-group-item">COTEK Plotter Series</a>
-                  <a href="{{url('products/stationary')}}" class="list-group-item">COTEK Laser Series</a>
-                  <a href="{{url('products/stationary')}}" class="list-group-item">COTEK Router Series</a>
+                  <a href="{{url('products/plotter')}}" class="list-group-item">COTEK Plotter Series</a>
+                  <a href="{{url('products/laser')}}" class="list-group-item">COTEK Laser Series</a>
+                  <a href="{{url('products/router')}}" class="list-group-item">COTEK Router Series</a>
                 </div>
 
                 <div class="well">

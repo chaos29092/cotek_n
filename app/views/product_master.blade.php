@@ -21,11 +21,11 @@
         				        <ol class="breadcrumb">
                                   <li><a href="/">Home</a></li>
                                   <li><a href="{{url('products/all')}}">Products</a></li>
-                                  <li><a href="{{url('products/mobile')}}">Mobile Asphalt Mixing Plant</a></li>
-                                  <li class="active">Product Name</li>
+                                  <li><a href="{{url('products/plotter')}}">COTEK Plotter Series</a></li>
+                                  <li class="active">{{$model}}</li>
                                 </ol>
                                 <hr id="breadcrumb"/>
-        					<div class="product col-md-3 service-image-left">
+        					<div class="product col-md-4 service-image-left">
 
         						<center>
         							<img id="item-display" src="@yield('productImg')" alt=""/>
@@ -45,7 +45,7 @@
         							</a>
         						</center>
         					</div>
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 @yield('product_dec')
 
             					<hr>
@@ -95,7 +95,7 @@
         					<ul id="myTab" class="nav nav-tabs nav_tabs">
 
         						<li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a></li>
-        						<li><a href="#service-two" data-toggle="tab">PRODUCT INFO</a></li>
+        						<li><a href="#service-two" data-toggle="tab">PARAMETERS</a></li>
         						<li><a href="#service-three" data-toggle="tab">REVIEWS</a></li>
 
         					</ul>
@@ -122,11 +122,10 @@
         				</div>
                         <hr/>
                         <div id="contact">
-                                    <div class="row">
                                         <h4>Please Fill Your Inquiry</h4>
                                         {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                                         <div class="form-group">
-                                            {{ Form::label('email', 'Email', array('class' => 'col-md-1 control-label')) }}
+                                            {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
                                             <div class="col-md-6">
                                                 <input required placeholder="youremail@example.com" class="form-control" name="email" type="email" id="email">
                                             </div>
@@ -135,12 +134,12 @@
                                         <div class="form-group">
                                             {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
                                             <div class="col-md-6">
-                                                <input required placeholder="your name" class="form-control" name="subject" type="text" id="subject">
+                                                <input placeholder="your name" class="form-control" name="subject" type="text" id="subject">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
+                                            {{ Form::label('message', 'Message(*)', array('class' => 'col-md-1 control-label')) }}
                                             <div class="col-md-8">
                                                 <textarea required class="form-control" rows="8" name="mes" cols="50"></textarea>
                                             </div>
@@ -152,7 +151,6 @@
                                             </div>
                                         </div>
                                         {{ Form::close() }}
-                                    </div>
                                 <script src="{{asset('assets/js/jquery.validate.min.js')}}"></script>
                                 <script>
                                 $("form").validate();

@@ -43,11 +43,10 @@
 
         <hr/>
         <div id="contact">
-                    <div class="row">
                         <h4>Please Fill Your Inquiry</h4>
                         {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                         <div class="form-group">
-                            {{ Form::label('email', 'Email', array('class' => 'col-md-1 control-label')) }}
+                            {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
                             <div class="col-md-6">
                                 <input required placeholder="youremail@example.com" class="form-control" name="email" type="email" id="email">
                             </div>
@@ -56,12 +55,12 @@
                         <div class="form-group">
                             {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
                             <div class="col-md-6">
-                                <input required placeholder="your name" class="form-control" name="subject" type="text" id="subject">
+                                <input placeholder="your name" class="form-control" name="subject" type="text" id="subject">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            {{ Form::label('message', 'Message', array('class' => 'col-md-1 control-label')) }}
+                            {{ Form::label('message', 'Message(*)', array('class' => 'col-md-1 control-label')) }}
                             <div class="col-md-8">
                                 <textarea required class="form-control" rows="8" name="mes" cols="50"></textarea>
                             </div>
@@ -73,7 +72,6 @@
                             </div>
                         </div>
                         {{ Form::close() }}
-                    </div>
                 <script src="{{asset('assets/js/jquery.validate.min.js')}}"></script>
                 <script>
                 $("form").validate();

@@ -59,19 +59,19 @@
 
         	<div class="container">
         	    <ul class="list-inline text-center">
-        	          <li><a href="">Index</a></li>
+        	          <li><a href="/">Index</a></li>
         	          <li>|</li>
-        	          <li><a href="">Products</a></li>
+        	          <li><a href="{{asset('products/all')}}">Products</a></li>
                       <li>|</li>
-                      <li><a href="">COTEK Plotter Series</a></li>
+                      <li><a href="{{asset('products/plotter')}}">COTEK Plotter Series</a></li>
                       <li>|</li>
-                      <li><a href="">COTEK Laser Series</a></li>
+                      <li><a href="{{asset('products/laser')}}">COTEK Laser Series</a></li>
                       <li>|</li>
-                      <li><a href="">COTEK Router Series</a></li>
+                      <li><a href="{{asset('products/router')}}">COTEK Router Series</a></li>
                       <li>|</li>
 
 
-                      <li><a href="">Contact</a></li>
+                      <li><a href="{{asset('contact')}}">Contact</a></li>
                 </ul>
                 <p class="text-center">Copyright © Henan Huaxia Haina Sales & Marketing Co.,Ltd.</p>
         	</div>
