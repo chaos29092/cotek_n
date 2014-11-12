@@ -18,7 +18,7 @@
     <div>
         <h4>CONTACT US</h4>
         <hr/>
-        <p><strong>Zhengzhou Hanvy Machinery And Equipment Co., Ltd International Trade</strong></p>
+        <p><strong>Henan Huaxia Haina Sales and Marketing Co., Ltd</strong></p>
         <p>Y06 Building,11 Changchun Road, Zhengzhou City,Henan,China,450001</p>
         <p>Mobile:  +86 139 3821 6025</p>
         <p><a href="mailto:info@sinohuaxia.com"></a>E-mail:  info@sinohuaxia.com</p>
