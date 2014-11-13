@@ -8,8 +8,18 @@
     Applicable materials: car stickers, label, reflective film, light box, carton board, thermal transfer film etc...
 @stop
 
+@section('breadcrumbs')
+<li><a href="{{url('products/plotter')}}">COTEK Plotter Series</a></li>
+@stop
+
 @section('productImg')
+@if($model == 'ctk-360c')
 {{asset('img/product/plotter/cotek360_1.jpg')}}
+@elseif('ctk-720c')
+{{asset('img/product/plotter/ctk720_1.jpg')}}
+@elseif('ctk-1350c')
+{{asset('img/product/plotter/ctk1350_1.jpg')}}
+@endif
 @stop
 
 @section('productImg_1')

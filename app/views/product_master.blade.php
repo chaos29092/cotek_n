@@ -21,7 +21,7 @@
         				        <ol class="breadcrumb">
                                   <li><a href="/">Home</a></li>
                                   <li><a href="{{url('products/all')}}">Products</a></li>
-                                  <li><a href="{{url('products/plotter')}}">COTEK Plotter Series</a></li>
+                                  @yield('breadcrumbs')
                                   <li class="active">{{$model}}</li>
                                 </ol>
                                 <hr id="breadcrumb"/>
