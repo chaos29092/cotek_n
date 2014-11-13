@@ -1,11 +1,11 @@
 @extends('sidebar_master')
 
 @section('title')
-    Hanvy - about us.
+Cotek - Contact
 @stop
 
 @section('description')
-    This is description.
+Advertising equipment (CNC routers, printers, banner machines, etc)
 @stop
 
 @section('topimg')

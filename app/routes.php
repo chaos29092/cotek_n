@@ -18,6 +18,8 @@ Route::get('customer_visit', 'PageController@customerVisit');
 Route::get('service', 'PageController@service');
 Route::get('solution', 'PageController@solution');
 Route::get('tour', 'PageController@tour');
+Route::get('ok', 'PageController@ok');
+
 Route::get('products/{category}', 'PageController@products');
 Route::get('product/plotter/{model}', 'PageController@productPlotter');
 Route::get('product/laser/{model}', 'PageController@productLaser');
@@ -32,6 +34,6 @@ Route::post('mailPost', function()
         $message->to(array('178399731@qq.com'), 'inquiry')->subject('hanvy沥拌 - 英语 - 网站询盘');
     });
 
-    return Redirect::back()->with('message', 'Message Send Successfully! We will contact you as soon as possible.');
+    return Redirect::to('ok')->with('message', 'Message Send Successfully! We will contact you as soon as possible.');
 });
 

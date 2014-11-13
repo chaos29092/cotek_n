@@ -1,11 +1,11 @@
 @extends('sidebar_master')
 
 @section('title')
-    Hanvy - about us.
+Cotek - Service
 @stop
 
 @section('description')
-    This is description.
+Our professional service staff for technical consulting is on line 24 hours. They guide customer choose what they need, not the most expensive, but the most suitable. A special questionnaire for crane and hoist we provide, will help us produce the most suitable and economic customized equipments .
 @stop
 
 @section('topimg')

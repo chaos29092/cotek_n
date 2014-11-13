@@ -1,11 +1,11 @@
 @extends('product_master')
 
 @section('title')
-    CUTTING PLOTTER {{$model}}
+CUTTING PLOTTER {{$model}}
 @stop
 
 @section('description')
-    Applicable materials: car stickers, label, reflective film, light box, carton board, thermal transfer film etc...
+ Applicable materials: car stickers, label, reflective film, light box, carton board, thermal transfer film etc...
 @stop
 
 @section('breadcrumbs')

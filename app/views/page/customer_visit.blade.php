@@ -1,11 +1,11 @@
 @extends('sidebar_master')
 
 @section('title')
-    Hanvy - about us.
+Cotek - customer visit
 @stop
 
 @section('description')
-    This is description.
+customer visit Henan Huaxia Haina Sales and Marketing Co., Ltd.
 @stop
 
 @section('topimg')

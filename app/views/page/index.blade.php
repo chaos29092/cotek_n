@@ -1,11 +1,11 @@
 @extends('master')
 
 @section('title')
-    This is title.
+Cotek - Advertising Equipment-Henan Huaxia Haina Sales & Marketing Co.,Ltd.
 @stop
 
 @section('description')
-    This is description.
+Henan Huaxia Haina Sales and Marketing Co., Ltd.  is belong to Henan Huaxia Haina Investment Group gathers studying, designing, production and international marketing together as a marketing company.
 @stop
 
 @section('content')

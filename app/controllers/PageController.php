@@ -37,6 +37,11 @@ class PageController extends BaseController {
         return View::make('page.tour');
     }
 
+    public function ok()
+    {
+        return View::make('page.ok');
+    }
+
     public function products($category)
     {
         $data['category'] = $category ;
