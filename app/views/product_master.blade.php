@@ -51,9 +51,9 @@
             					<hr>
             					<a href="mailto:nylyzj.com"><span class="glyphicon glyphicon-envelope"></span> Send a E-mail to Us</a> <br/>
             					<div class="btn-group cart">
-            						<button type="button" class="btn btn-primary btn-lg">
+            						<a href="#contact"><button type="button" class="btn btn-primary btn-lg">
             							<span class="glyphicon glyphicon-comment"></span> Get Prices
-            						</button>
+            						</button></a>
             					</div>
 
             				</div>

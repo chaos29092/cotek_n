@@ -44,27 +44,22 @@ CNC router models: CTK-1318K/CTK-1326K/CTK-1626K/CTK-1826 Table size for wood/st
 @stop
 
 @section('product_dec')
-    <div class="product-title">LASER ROUTER <span class="text-uppercase">{{$model}}</span></div>
-    <div class="product-desc">Applicable material: Nonmetal materials like wood, leather, cloth, plexiglass,rubber printing plates,ABS double color sheet, synthetic crystal, horn, cardboard, MDF, marble, jade, etc.</div>
+    <div class="product-title">CNC Router <span class="text-uppercase">{{$model}}</span></div>
     <hr>
-    <div class="product-desc">Applicable Industries: Advertisement decorations, handicraft, garment, shoes, bags, computerized embroidery and clipping,template cutting, relief, toys, furniture, packing, printing and other industries.</div>
+    <div class="product-desc">Applicable Industries: advertisement label, marking made, acrylic cutting, mold, gifts, woodworking building model processing and production.</div>
     <div class="product-stock">In Stock</div>
 @stop
 
 @section('product_content_1')
-    <h3>Applicable material:</h3>
-    <p>Nonmetal materials like wood, leather, cloth, plexiglass,rubber printing plates,ABS double color sheet, synthetic crystal, horn, cardboard, MDF, marble, jade, etc.</p>
-    <h3>Features <small>Why choose Cotek Laser Engraving Machine?</small></h3>
-    <ol>
-        <li>High-subdivision motor with Japan's drive technology,which can guarantee the product running under high speed, high precision;</li>
-        <li>Imported linear guide rail,mechanical operation in good precision and strong stability;</li>
-        <li>Channel type feed and feeding infinite;</li>
-        <li>The overall adopts high quality aluminum alloy and processed with professional mold,which with characteristics of good strength hard deformation;</li>
-        <li>Main components of the circuit adopts original imported ones and the main control chip contains double CPU;</li>
-    </ol>
-    <h3>Gallery <small>What Cotek Laser Engraving Machine Can Make?</small></h3>
-    <img src="{{asset('img/product/laser/chengpin_1.jpg')}}" alt="Laser Engraving Image Gallery"/>
-    <img src="{{asset('img/product/laser/chengpin_2.jpg')}}" alt="Laser Engraving Image Gallery"/>
+    <h3>Features:</h3>
+    <ul>
+        <li>Three axis imported linear square orbit. Solid gantry, well structure of lathe bed, stable lathe table, fast speed and high accuracy;</li>
+        <li>High-speed water cooling spindle and high performance subdivision driver ensure to work stably for a long time;</li>
+        <li>Adopt advanced CNC system (NCstudio or DSP control system), This system have break point memory mode and special saving made of different points so that can make sure continuous working after electronic drop or other postpone situation;</li>
+        <li>Option: Stainless steel water tank is suitable for the processing of hard materials, such as glass, marble and so on.</li>
+    </ul>
+    <h3>Option:</h3>
+    <p>Square guide rail, Vacuum table, Dust collector, DSP remote control system, Lubrication system</p>
 
     <h3>Customers Words <small>What Cotek Customers Say?</small></h3>
     <div>

@@ -184,14 +184,6 @@ A special questionnaire for cutting plotters, laser engraving & cutting machines
                       </div>
                     </a>
                   </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="{{url('product/router/ctk-1325s')}}" class="thumbnail">
-                      <img src="{{asset('img/product/router/ctk-1325s.jpg')}}" alt="CTK-1325S 5.5Kw spindle Square guide">
-                      <div class="caption">
-                        <p class="text-center">CTK-1325S 5.5Kw spindle Square guide</p>
-                      </div>
-                    </a>
-                  </div>
          </div>
         <hr/>
 
@@ -346,14 +338,6 @@ A special questionnaire for cutting plotters, laser engraving & cutting machines
                       <img src="{{asset('img/product/router/ctk-1325i-3d.jpg')}}" alt="CTK-1325I-3D 4.5Kw spindle Vacuum table ATC with three tools">
                       <div class="caption">
                         <p class="text-center">CTK-1325I-3D 4.5Kw spindle Vacuum table ATC with three tools</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-xs-6 col-md-4">
-                    <a href="{{url('product/router/ctk-1325s')}}" class="thumbnail">
-                      <img src="{{asset('img/product/router/ctk-1325s.jpg')}}" alt="CTK-1325S 5.5Kw spindle Square guide">
-                      <div class="caption">
-                        <p class="text-center">CTK-1325S 5.5Kw spindle Square guide</p>
                       </div>
                     </a>
                   </div>
