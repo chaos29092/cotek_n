@@ -5,7 +5,7 @@ COTEK Router Series {{$model}}
 @stop
 
 @section('description')
-CNC router models: CTK-1318K/CTK-1326K/CTK-1626K/CTK-1826 Table size for wood/stone engraving and carving: 1300*1800mm/1300*2600mm/1600*2600mm/1800*2600mm High performance driver can assure the router CNC machine fast speed and high precision;And the strong cutting strength of our CNC engraver can realize a long time mass processing;As a professional manufacture,we promise you the most efficiency woodworking router with most favorable price.
+CNC router models: CTK-6090/CTK-1212/CTK-1325/CTK-1325T/CTK-1325I Table size for wood/stone engraving and carving: 1300*1800mm/1300*2600mm/1600*2600mm/1800*2600mm High performance driver can assure the router CNC machine fast speed and high precision;And the strong cutting strength of our CNC engraver can realize a long time mass processing;As a professional manufacture,we promise you the most efficiency woodworking router with most favorable price.
 @stop
 
 @section('breadcrumbs')
@@ -27,8 +27,6 @@ CNC router models: CTK-1318K/CTK-1326K/CTK-1626K/CTK-1826 Table size for wood/st
 {{asset('img/product/router/ctk-1325i-2d_1.jpg')}}
 @elseif($model == 'ctk-1325i-3d')
 {{asset('img/product/laser/ctk-1325i-3d_1.jpg')}}
-@elseif($model == 'ctk-1325s')
-{{asset('img/product/laser/ctk-1325s_1.jpg')}}
 @endif
 @stop
 
@@ -46,20 +44,43 @@ CNC router models: CTK-1318K/CTK-1326K/CTK-1626K/CTK-1826 Table size for wood/st
 @section('product_dec')
     <div class="product-title">CNC Router <span class="text-uppercase">{{$model}}</span></div>
     <hr>
-    <div class="product-desc">Applicable Industries: advertisement label, marking made, acrylic cutting, mold, gifts, woodworking building model processing and production.</div>
+    @if($model == 'ctk-6090' or $model =='ctk-1212' or $model =='ctk-1325')
+    <div class="product-desc">High stability:lathe bed platform casting,supporting dense,bearing force average,reducing machine distortion.</div>
+    @elseif($model == 'ctk-1325t')
+    <div class="product-desc">The machine adopts steel structure,seamless welding,according to the standard industry to produce.</div>
+    @elseif($model == 'ctk-1325i' or $model == 'ctk-1325i-2d' or $model =='ctk-1325i-3d')
+    <div class="product-desc">Multi-head cnc router:The machine add multi-heads,they can work at the same time or just one head work separately.</div>
+    @endif
     <div class="product-stock">In Stock</div>
 @stop
 
 @section('product_content_1')
-    <h3>Features:</h3>
-    <ul>
-        <li>Three axis imported linear square orbit. Solid gantry, well structure of lathe bed, stable lathe table, fast speed and high accuracy;</li>
+    <h3>Main Feature:</h3>
+    @if($model == 'ctk-6090' or $model =='ctk-1212' or $model =='ctk-1325')
+    <ol>
+        <li>High stability:lathe bed platform casting,supporting dense,bearing force average,reducing machine distortion.</li>
+        <li>High precision: ball screw drive with a high precision which can reach up to 0.05mm.</li>
+        <li>High quality parts:using the linear round guide,high precision;X rail adopt pop dust-proof structure,ensure the machine has a long-term operation;spindle is water cooling.</li>
+        <li>Good compatibility:Compatible software CAD/CAM,such as Type3,AreCam,Castmate,UcanCam,Artcut engraving software,Coreldraw,etc.It can manufacture fancy emboss,and 3D arts.</li>
+    </ol>
+    @elseif($model == 'ctk-1325t')
+    <ol>
+        <li>The machine adopts steel structure,seamless welding,according to the standard industry to produce;</li>
+        <li>X Y and Z adopt Taiwan HIWIN linear square guide rail,high precision,good dust cleaning;</li>
+        <li>X and Y axis adopt rack transmission,faster working,higher efficiency;</li>
+        <li>High performance subdivision stepper motor operates smoothly at maximum speed;</li>
+        <li>Adopting high quality water cooled spindle,so the machine can keep working for long-time without any fault;</li>
+        <li>It has the function of re-carving after break point and power failure.</li>
+    </ol>
+    @elseif($model == 'ctk-1325i' or $model =='ctk-1325i-2d' or $model =='ctk-1325i-3d')
+    <ol>
+        <li>Multi-head cnc router:The machine add multi-heads,they can work at the same time or just one head work separately;</li>
+        <li>Three axis imported linear square rail.Solid gantry,well structure of lathe bed,stable lethe table,fast speed and high accuracy;</li>
         <li>High-speed water cooling spindle and high performance subdivision driver ensure to work stably for a long time;</li>
-        <li>Adopt advanced CNC system (NCstudio or DSP control system), This system have break point memory mode and special saving made of different points so that can make sure continuous working after electronic drop or other postpone situation;</li>
-        <li>Option: Stainless steel water tank is suitable for the processing of hard materials, such as glass, marble and so on.</li>
-    </ul>
-    <h3>Option:</h3>
-    <p>Square guide rail, Vacuum table, Dust collector, DSP remote control system, Lubrication system</p>
+        <li>Adopt advanced CNC system (NC studio or DSP control system).This system have break point memory mode and special saving made of different points so that can make sure continuous working after power off or other postpone situation;</li>
+        <li>Option:Stainless steel water tank is suitable for the processing of hard materials,such as glass,marble and so on.</li>
+    </ol>
+    @endif
 
     <h3>Customers Words <small>What Cotek Customers Say?</small></h3>
     <div>
