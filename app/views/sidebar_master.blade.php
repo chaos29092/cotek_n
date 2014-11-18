@@ -35,7 +35,7 @@
                     <span>(Chat Online)</span>
                     <br/><br/>
                     <p>or Email to us:</p>
-                    <a href="mailto:info@nylyzj.com"><span class="glyphicon glyphicon-envelope"></span> info@nylyzj.com</a>
+                    <a href="mailto:info@sinohuaxia.com"><span class="glyphicon glyphicon-envelope"></span> info@sinohuaxia.com</a>
                     <br/><br/>
                     <a href="{{url('contact')}}" target="_blank"><img src="{{asset('img/contact.jpg')}}" class="img-responsive img-rounded center-block" alt=""/></a>
                 </div>
