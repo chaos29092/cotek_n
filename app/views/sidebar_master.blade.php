@@ -27,9 +27,11 @@
 
                 <div class="well">
                     <h4>NEED HELP?</h4>
+                    <a href="http://prt.zoosnet.net/LR/Chatpre.aspx?id=PRT48595698&lng=en">
                     <button type="button" class="btn btn-warning">
                         <span class="glyphicon glyphicon-comment"></span> chat now
                     </button>
+                    </a>
                     <span>(Chat Online)</span>
                     <br/><br/>
                     <p>or Email to us:</p>

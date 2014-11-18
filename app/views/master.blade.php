@@ -19,7 +19,7 @@
 
         <link rel="stylesheet" href="{{asset('assets/css/normalize.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
-        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400">
         <script src="{{asset('assets/js/vendor/modernizr-2.6.2.min.js')}}"></script>
     </head>
@@ -79,7 +79,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="{{asset('assets/js/vendor/jquery.min.js')}}"><\/script>')</script>
-        <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <script src="{{asset('assets/js/plugins.js')}}"></script>
         <script src="{{asset('assets/js/main.js')}}"></script>
         <script>
