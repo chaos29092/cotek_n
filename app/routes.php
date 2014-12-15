@@ -30,8 +30,8 @@ Route::post('mailPost', function()
 {
     $date = Input::all();
 
-    Mail::send('emails.inquiry', array('subject'=>$date['subject'],'mes'=>$date['mes'],'email'=>$date['email']),function($message){
-        $message->to(array('178399731@qq.com'), 'inquiry')->subject('hanvy沥拌 - 英语 - 网站询盘');
+    Mail::send('emails.inquiry', array('subject'=>$date['subject'],'mes'=>$date['mes'],'email'=>$date['email'],'product'=>$date['product'],'country'=>$date['country'],'phone'=>$date['phone']),function($message){
+        $message->to(array('178399731@qq.com'), 'inquiry')->subject('cotek - 英语 - 网站询盘');
     });
 
     return Redirect::to('ok')->with('message', 'Message Send Successfully! We will contact you as soon as possible.');
