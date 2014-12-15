@@ -10,9 +10,9 @@
 			<p>询盘内容：</p>
 			<p>Product:{{$product}}</p>
 			<p>Country:{{$country}}</p>
-			<p>Phone:{{$phone}}</p>
-			<p>Email: {{$email}}</p>
 			<p>Name: {{$subject}}</p>
+			<p>Email: {{$email}}</p>
+			<p>Phone:{{$phone}}</p>
 			<p>Message: {{$mes}}</p>
 		</div>
 	</body>

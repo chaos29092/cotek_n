@@ -35,24 +35,25 @@
             <input name="product" type="hidden" value="contact 页面">
 
             <div class="form-group">
-                {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
+                {{ Form::label('country', 'Country', array('class' => 'col-md-1 control-label')) }}
                 <div class="col-md-6">
-                    <input required placeholder="youremail@example.com" class="form-control" name="email" type="email"
-                           id="email">
+                    <input placeholder="your country" class="form-control" name="country" type="text">
                 </div>
             </div>
 
             <div class="form-group">
                 {{ Form::label('subject', 'Name', array('class' => 'col-md-1 control-label')) }}
                 <div class="col-md-6">
-                    <input placeholder="your name" class="form-control" name="subject" type="text" id="subject">
+                    <input placeholder="your name" class="form-control" name="subject" type="text"
+                           id="subject">
                 </div>
             </div>
 
             <div class="form-group">
-                {{ Form::label('country', 'Country', array('class' => 'col-md-1 control-label')) }}
+                {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
                 <div class="col-md-6">
-                    <input placeholder="your country" class="form-control" name="country" type="text">
+                    <input required placeholder="youremail@example.com" class="form-control"
+                           name="email" type="email" id="email">
                 </div>
             </div>
 
@@ -62,6 +63,7 @@
                     <input placeholder="your phone number" class="form-control" name="phone" type="text">
                 </div>
             </div>
+
 
             <div class="form-group">
                 {{ Form::label('message', 'Message(*)', array('class' => 'col-md-1 control-label')) }}

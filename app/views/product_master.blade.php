@@ -136,12 +136,10 @@
                             <h4>Please Fill Your Inquiry</h4>
                             {{ Form::open(array('url' => 'mailPost', 'class' => 'form-horizontal', 'role' => 'form' )) }}
                             <input name="product" type="hidden" value="{{$model}}">
-
                             <div class="form-group">
-                                {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
+                                {{ Form::label('country', 'Country', array('class' => 'col-md-1 control-label')) }}
                                 <div class="col-md-6">
-                                    <input required placeholder="youremail@example.com" class="form-control"
-                                           name="email" type="email" id="email">
+                                    <input placeholder="your country" class="form-control" name="country" type="text">
                                 </div>
                             </div>
 
@@ -154,9 +152,10 @@
                             </div>
 
                             <div class="form-group">
-                                {{ Form::label('country', 'Country', array('class' => 'col-md-1 control-label')) }}
+                                {{ Form::label('email', 'Email(*)', array('class' => 'col-md-1 control-label')) }}
                                 <div class="col-md-6">
-                                    <input placeholder="your country" class="form-control" name="country" type="text">
+                                    <input required placeholder="youremail@example.com" class="form-control"
+                                           name="email" type="email" id="email">
                                 </div>
                             </div>
 
